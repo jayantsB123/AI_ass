@@ -16,6 +16,7 @@ def findposofblank(state):
 		for j in range(3):
 			if(state[i][j] == -1):
 				return [i,j]
+				
 def move_left(state, pos):
 	if(pos[1]==0):
 		return None
