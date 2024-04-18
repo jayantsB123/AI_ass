@@ -27,6 +27,7 @@ def bfs(visited, graph, start_node, goal_node):
                     queue.append(n)
 
 print("The BFS Traversal is : ")
+
 bfs(visited, graph, 'A', 'D')
 
 #DFS
