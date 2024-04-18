@@ -10,6 +10,7 @@ def gn(state, finalstate):
 				if(state[i][j] != finalstate[i][j]):
 					count+=1
 	return count
+	
 def findposofblank(state):
 	for i in range(3):
 		for j in range(3):
