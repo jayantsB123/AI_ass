@@ -8,6 +8,7 @@ graph = {'A':['B', 'E', 'C'],
          'G':['C']
          }
 visited = []
+
 queue = []
 
 def bfs(visited, graph, start_node, goal_node):
