@@ -1,5 +1,4 @@
 n = int(input("Enter number of jobs: "))
-
 jobs = []
 print("Enter Id deadline and profit respectively for each job:")
 for i in range(n):
